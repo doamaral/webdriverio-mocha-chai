@@ -4,7 +4,7 @@
   "description": "Tests with WebdriverIO",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx wdio wdio.conf.js"
   },
   "author": "Lucas Amaral",
   "license": "ISC",
@@ -16,8 +16,8 @@
     "@wdio/spec-reporter": "^6.0.16",
     "@wdio/sync": "^6.1.0",
     "chai": "^4.2.0",
-    "chromedriver": "^81.0.0",
     "wdio-chromedriver-service": "^6.0.2",
-    "wdio-zafira-listener-service": "^1.0.5"
+    "wdio-zafira-listener-service": "^1.0.5",
+    "chromedriver": "^86.0.0"
   }
 }
